@@ -1,16 +1,51 @@
-# React + Vite
+# Quiz App 🧠
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive quiz application built as part of a frontend assignment.  
+The app allows users to answer multiple-choice questions, track progress, and view final results.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
+https://quiz-g60z1thch-anshikag15s-projects.vercel.app
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📂 GitHub Repository
+https://github.com/Anshikag15/quiz-app
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tech Stack
+- React
+- Vite
+- JavaScript (ES6)
+- Tailwind CSS
+- CSS
+
+---
+
+## ✨ Features
+- Multiple-choice quiz interface
+- Progress bar to track quiz completion
+- Navigation between questions (Back / Next)
+- Score calculation at the end
+- Clean, modern, desktop-first UI
+
+---
+
+## ⚙️ Setup Instructions
+1. Clone the repository
+2. Run `npm install`
+3. Run `npm run dev`
+4. Open the app in your browser
+
+---
+
+## 📝 Assumptions
+- The application is designed with a desktop-first approach
+- Users must answer all questions to see the final score
+
+---
+
+## ⏱ Time Spent
+Approximately 6–8 hours
