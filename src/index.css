@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .clip-path-circle {
+    clip-path: circle(50% at 50% 50%);
+  }
+}
+
+body {
+  /* Stronger diffused gradient matching the screenshots */
+  background: radial-gradient(circle at 10% 10%, #E0F2FE 0%, #C7D2FE 50%, #E0E7FF 100%);
+  @apply min-h-screen flex items-center justify-center font-sans antialiased;
+}
+
+.paw-gif {
+  position: absolute;
+  width: 173px;
+  height: 173px;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 680px;    /* <-- exact number for your layout */
+  z-index: 10;
+  pointer-events: none;
+}
+
